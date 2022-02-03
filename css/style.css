@@ -1,0 +1,206 @@
+:root{
+    --hard-dark: #1e1e1e;
+    --soft-dark : #3c3c3c;
+    --dull-text: #848484;
+    --blue: #1e3398;
+    --red: #cb8f77;
+    --seablue: #59bcf6;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover,
+a:hover{
+    cursor: pointer;
+}
+
+button{
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--hard-dark);
+    font-size: 0.6rem;
+    color: var(--dull-text);
+    font-family: monospace;
+}
+
+
+.blue{
+    color: var(--blue);
+}
+
+.red{
+    color:var(--red);
+}
+
+.seablue{
+    color: var(--seablue);
+}
+
+.white{
+    color: white;
+}
+
+header ul,
+.header-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--dull-text);
+    background-color:var(--soft-dark);
+    font-size: 0.55rem;
+    max-height: 1.3rem;
+    overflow: hidden;
+}
+
+.header-menu{
+    align-items: center;
+}
+
+header a{
+    color: var(--dull-text);
+}
+
+header li{
+    padding: 0.3rem;
+}
+
+header img{
+    padding: 0.4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.code-name{
+    justify-self: center;
+    margin-right: 2rem;
+}
+
+.window-menu{
+    min-width: 5.5rem;
+}
+
+.window-menu button{
+    padding: 0.4rem 0.6rem;
+    color: var(--dull-text);
+}
+
+.window-menu i {
+    display: block;
+    font-size: 0.65rem;
+}
+
+.main-body{
+    display: grid;
+    grid-template-columns: 1fr 30fr;
+    width: 100%;
+}
+
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    justify-content: space-between;
+    width: 2.3rem;
+    background-color: #333333;
+}
+
+.side-nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side-nav li{
+    margin: 0.37rem;
+    padding: 0.1rem;
+}
+
+.bug{
+    display: flex;
+}
+
+.side-nav i{
+    font-size: 0.9rem;
+    color: var(--dull-text);
+}
+
+.file-nav,
+.files{
+    display: flex;
+    align-items: center;
+}
+
+.file-nav{
+    width: 100%;
+    background-color: #2d2d2d;
+}
+
+.file-open{
+    padding: 0.25rem;
+}
+
+.open{
+    background-color: var(--hard-dark);
+}
+
+.html-sym{
+    color: var(--red);
+}
+
+.css-sym{
+    color: var(--seablue);
+}
+
+.line-no{
+    color: var(--dull-text);
+}
+
+
+.element-nav{
+    box-shadow: 0 1px 4px #000;
+    padding-left: 1rem;
+}
+
+.code-area{
+    font-size: 0.65rem;
+}
+
+.line-grid{
+    display: flex;
+    padding: 0.1rem 0;
+}
+
+.line-no{
+    padding: 0 0.9rem;
+}
+
+.line-code{
+    grid-column: span 38;
+}
