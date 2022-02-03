@@ -73,7 +73,7 @@ header{
     align-items: center;
     color: var(--dull-text);
     background-color:var(--soft-dark);
-    font-size: 0.55rem;
+    font-size: 0.6rem;
     max-height: 1.3rem;
     overflow: hidden;
 }
@@ -203,4 +203,52 @@ header img{
 
 .line-code{
     grid-column: span 38;
+}
+
+.n32 .line-code{
+    padding-left: 2rem;
+}
+
+.n33 .line-code{
+    padding-left: 3rem;
+}
+
+.n34 .line-code,
+.n42 .line-code,
+.n43 .line-code,
+.n45 .line-code,
+.n46 .line-code{
+    padding-left: 4rem;
+}
+
+
+.n35 .line-code,
+.n36 .line-code,
+.n40 .line-code,
+.n41 .line-code,
+.n44 .line-code,
+.n47 .line-code{
+    padding-left: 5rem;
+}
+
+.n38 .line-code,
+.n39 .line-code,
+.n48 .line-code,
+.n54 .line-code,
+.n55 .line-code,
+.n57 .line-code,
+.n58 .line-code{
+    padding-left: 6rem;
+}
+
+.n49 .line-code,
+.n50 .line-code,
+.n53 .line-code,
+.n56 .line-code{
+    padding-left: 7rem;
+}
+
+.n51 .line-code,
+.n52 .line-code{
+    padding-left: 8rem;
 }
